@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jul 14 09:47:45 2022
+
+@author: USUARIO
+"""
+Esta es el achivo con el que comenzare a realizar lo ejercicios de git
+
+Realizados por Eduardo Guillrmo Ezquer
