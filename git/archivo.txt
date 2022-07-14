@@ -1,3 +1,4 @@
+Ediatdo desde github
 Esta es el achivo con el que comenzare a realizar lo ejercicios de git
 
 Realizados por Eduardo Guillermo Ezquer
