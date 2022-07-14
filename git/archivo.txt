@@ -1,4 +1,4 @@
-Ediatdo desde github
+Ediatdo desde github despues de llaves
 Esta es el achivo con el que comenzare a realizar lo ejercicios de git
 
 Realizados por Eduardo Guillermo Ezquer
