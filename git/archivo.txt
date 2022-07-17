@@ -1,4 +1,0 @@
-Editado despues de llaves desde compu
-Esta es el achivo con el que comenzare a realizar lo ejercicios de git
-
-Realizados por Eduardo Guillermo Ezquer
