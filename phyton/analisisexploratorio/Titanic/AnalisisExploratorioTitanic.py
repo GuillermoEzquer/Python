@@ -1,5 +1,4 @@
 #Importamos todas las librerias necesarias para analisis exploratorio
-#Probando git v2
 import pandas as pd
 from pandas_profiling import ProfileReport
 import numpy as np
@@ -17,7 +16,7 @@ from pydotplus import graph_from_dot_data
 train_df = pd.read_csv('Titanic_train.csv')
 test_df = pd.read_csv('Titanic_test.csv')
 combine = [train_df, test_df]
-dataset = sn.load_dataset("titanic") #este dataset importado de panda no es igual al que tenemos en csv
+#dataset = sn.load_dataset("titanic") #este dataset importado de panda no es igual al que tenemos en csv
 
 print('Columnas del dataset:')
 print(train_df.keys())
@@ -45,8 +44,8 @@ print(train_df.describe(include=['O']))
 print()
 
 #Uso libreria profiling para hacer analisis exploratorio antes de cambiar el dataset
-prof = ProfileReport(train_df)
-prof.to_file('titanic_original_train.html')
+#prof = ProfileReport(train_df)
+#prof.to_file('titanic_original_train.html')
 
 #Uso libreria mito para analisis exploratorio solo en jupiter lab
 #mitosheet.sheet(dataset, analysis_to_replay="id-xoswchqnxh")
@@ -136,7 +135,6 @@ print()
 title_mapping = {"Mr": 1, "Miss": 2, "Mrs": 3, "Master": 4, "Rare": 5}
 for dataset in combine:
     dataset['Title'] = dataset['Title'].map(title_mapping)
-    dataset['Title'] = dataset['Title'].fillna(0)
 
 # =============================================================================
 # print('Verificamos el dataset y vemos como quedo la columna titulo:')
